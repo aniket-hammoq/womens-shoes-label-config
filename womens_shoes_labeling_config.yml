@@ -1,0 +1,312 @@
+<View>
+<Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="true"/>
+ #================================
+# department and tag section
+#================================  
+  #----------------------
+  <Header name="heading-department" value="department" />
+  <Choices name="department" toName="image"
+           showInLine="true" required="true"
+           choice="single-radio">
+    <Choice value="womens shoes"/>
+    <Choice value="tag"/>
+    <Choice value="other"/>
+  </Choices>
+  #----------------------
+  <Choices name = "tag-choices" toName="image" showInLine="true"
+           required="true"
+           visibleWhen="choice-selected"
+           whenTagName="department"
+           choice="multiple"
+           whenChoiceValue="tag">
+    <View style="width:100%">
+      <Header name="heading-tag-choice" value="what does the tag contain (Select All Applicable)" />
+     
+    </View>    
+    <Choice value="contains brand-name"/>
+    <Choice value="contains brand-logo"/>
+    <Choice value="contains material"/>    
+    <Choice value="contains model-number"/>    
+    <Choice value="contains size"/>    
+    <Choice value="contains made-in"/>    
+    <Choice value="contains others"/>    
+    </Choices>
+#================================
+# material section (insole,lining,outer-sole, upper-shoe)
+#================================
+  <View style="display: flex;">
+  
+  #----------------------
+    <View style="flex: 50%">
+  <Choices name="insole-material"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="department" whenChoiceValue="womens shoes" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-insole-material" value="insole material" />
+     
+    </View>
+    <Choice value="cork"/>
+    <Choice value="other/unknown"/>
+  </Choices>
+  </View>
+  #----------------------
+   <View style="flex: 50%">
+  <Choices name="lining-material"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="insole-material" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-lining-material" value="lining material" />
+     
+    </View>
+   
+    <Choice value="canvas"/>
+    <Choice value="fur"/>
+    <Choice value="lambskin"/>
+  </Choices>  
+     </View>
+    </View>
+  #----------------------
+  <View style="display: flex;">
+  <Choices name="outsole-material"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="lining-material" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-outsole-material" value="outsole-material" />
+     
+    </View>    
+    <Choice value="cork"/>
+    <Choice value="rubber"/>
+  </Choices>  
+  #----------------------  
+  <Choices name="upper-shoe-material"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="outsole-material" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-shoe-material" value="upper shoe material" />
+     
+    </View>
+    <Choice value="cork"/>
+    <Choice value="fur"/>
+  </Choices>
+</View>
+#================================================================
+# Heel and bottom of shoe section (heel-height,style,cleat)
+#================================================================
+  <View style="display: flex;">
+    <View style="flex: 50%">
+  <Choices name="heel-height"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="upper-shoe-material" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-heel-height" value="heel height" />
+     
+    </View>
+    <Choice value="low"/>
+    <Choice value="medium"/>
+    <Choice value="high"/>
+    <Choice value="ultra-high"/>
+  </Choices>
+      </View>
+  #----------------------
+      <View style="flex: 50%">
+  <Choices name="cleat-type"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="heel-height" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-cleat-type" value="cleat type" />
+     
+    </View>
+    <Choice value="Plastic Cleats"/>
+    <Choice value="Rubber Cleats"/>
+    <Choice value="Metal Cleats"/>
+  </Choices>  
+  </View>
+    </View>
+  #----------------------
+  <Choices name="heel-style"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="cleat-type" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-heel-style" value="heel style" />
+     
+    </View>
+   
+    <Choice value="block heel"/>
+    <Choice value="cone heel"/>
+    <Choice value="cuban heels"/>
+    <Choice value="flat heels"/>
+    <Choice value="Stilettos heels"/>
+    <Choice value="kitten heels"/>
+    <Choice value="spool heels"/>
+    <Choice value="wedge heels"/>
+  </Choices>  
+  
+#=============================
+# shoe shaft and toe
+#=============================
+  <Choices name="shoe-shaft-style"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="heel-style" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-shoe-shaft-style" value="shoe shaft style" />
+     
+    </View>
+    <Choice value="Ankle"/>
+    <Choice value="Low Top"/>
+    <Choice value="Mid Top"/>
+    <Choice value="High Top"/>
+    <Choice value="Knee High"/>
+    <Choice value="Thigh High"/>
+    <Choice value="Over the Knee"/>
+  </Choices>  
+  #----------------------
+  <Choices name="toe-shape"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="shoe-shaft-style" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-toe-shape" value="toe shape" />
+     
+    </View>    
+  <Choice value = "pointed_toe"/>
+<Choice value = "round_toe"/>
+<Choice value = "square_toe"/>
+<Choice value = "open_toe"/>
+<Choice value = "peep_toe"/>
+<Choice value = "closed_toe"/>
+<Choice value = "almond_toe"/>
+  </Choices>  
+
+#=============================
+# closure
+#=============================
+<Choices name="closure"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="toe-shape" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-closure" value="closure" />
+     
+    </View>    
+  <Choice value = "buckle"/>
+<Choice value = "button"/>
+<Choice value = "drawstring"/>
+<Choice value = "hook"/>
+  </Choices>
+#=============================
+# other features
+#=============================
+  #----------------------
+  <Choices name="features"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="closure" choice="multiple">
+     
+    <View style="width:100%">
+      <Header name="heading-features" value="features" />
+     
+    </View>
+    <Choice value="straps"/>
+    <Choice value="buckle"/>
+    <Choice value="cap toe"/>
+    <Choice value="spikes"/>
+    <Choice value="wingtip"/>
+    <Choice value="wheels"/>
+
+  </Choices>
+#=============================
+# pattern
+#=============================  
+  #----------------------
+  <Choices name="pattern"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="features" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-pattern" value="pattern" />
+     
+    </View>    
+  <Choice value = "gingham"/>
+  <Choice value = "check"/>
+  <Choice value = "solid"/>
+  <Choice value = "herringbone"/>
+  <Choice value = "houndstooth"/>
+  <Choice value = "camouflage"/>
+  <Choice value = "floral"/>
+  <Choice value = "striped"/>
+  <Choice value = "ombré_women_shoes"/>
+  <Choice value = "flecked"/>
+  <Choice value = "ikat"/>
+  <Choice value = "colorblock"/>
+  <Choice value = "plaid"/>
+  <Choice value = "polka_dot"/>    
+  </Choices>  
+
+#=============================
+# type and style
+#=============================
+    <Choices name="type"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="pattern" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-type" value="type" />
+     
+    </View>
+    <Choice value="athletic"/>
+    <Choice value="boot"/>
+    <Choice value="casual"/>
+      <Choice value="flat"/>
+      <Choice value="heel"/>
+      <Choice value="sandal"/>
+      <Choice value="slipper"/>
+           
+  </Choices>
+
+</View>
