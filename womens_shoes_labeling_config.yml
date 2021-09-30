@@ -230,6 +230,10 @@
 <Choice value = "button"/>
 <Choice value = "drawstring"/>
 <Choice value = "hook"/>
+ <Choice value = "lace-up/tie"/>
+ <Choice value = "pull-on/slip-on"/>
+ <Choice value = "snap"/>
+  <Choice value = "zip"/>
   </Choices>
 #=============================
 # other features
