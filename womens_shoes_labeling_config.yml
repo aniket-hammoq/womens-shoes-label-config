@@ -390,10 +390,8 @@
 <Choice value="Chiffon/Crepe"/>
 <Choice value="Corduroy"/>
 <Choice value="Crochet"/>
-<Choice value="TODO_Damask"/>
 <Choice value="Down"/>
 <Choice value="Dupion"/>
-<Choice value="TODO_Fabric"/>
 <Choice value="Felt"/>
 <Choice value="Flannel"/>
 <Choice value="Fleece"/>
@@ -404,12 +402,10 @@
 <Choice value="Grosgrain"/>
 <Choice value="Jacquard"/>
 <Choice value="Jersey"/>
-<Choice value="TODO_Knit"/>
 <Choice value="Lace"/>
 <Choice value="Latex"/>
 <Choice value="Lawn"/>
 <Choice value="Madras"/>
-<Choice value="TODO_Mesh"/>
 <Choice value="Microfiber"/>
 <Choice value="Microfleece"/>
 <Choice value="Moleskin"/>
@@ -428,9 +424,7 @@
 <Choice value="Shearling"/>
 <Choice value="Silk"/>
 <Choice value="Softshell"/>
-<Choice value="TODO_Taffeta"/>
 <Choice value="Terry"/>
-<Choice value="TODO_Toile"/>
 <Choice value="Tulle"/>
 <Choice value="Tussah"/>
 <Choice value="Tweed"/>
@@ -439,5 +433,11 @@
 <Choice value="Velvet"/>
 <Choice value="Voile"/>
 <Choice value="Woven"/>
+<Choice value="TODO_Damask"/>
+<Choice value="TODO_Fabric"/>
+<Choice value="TODO_Knit"/>
+<Choice value="TODO_Mesh"/>
+<Choice value="TODO_Taffeta"/>
+<Choice value="TODO_Toile"/>
 </Choices>
 </View>
