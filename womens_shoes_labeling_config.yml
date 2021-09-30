@@ -321,5 +321,99 @@
       <Choice value="slipper"/>
            
   </Choices>
+#................................
+    <Choices name="style"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="type" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-style" value="style" />
+     
+    </View>
+    <Choice value="athletic"/>
+    <Choice value="boot"/>
+    <Choice value="casual"/>
+      <Choice value="flat"/>
+      <Choice value="heel"/>
+      <Choice value="sandal"/>
+      <Choice value="slipper"/>
+           
+  </Choices>
+  
+#=============================
+# fabric
+#=============================
 
+      <Choices name="fabric"
+            toName="image"
+            showInLine="true"
+            required="true"
+            visibleWhen="choice-selected"
+            whenTagName="style" choice="single-radio">
+     
+    <View style="width:100%">
+      <Header name="heading-fabric" value="fabric" />
+     
+    </View>
+
+<Choice value="Blended"/>
+<Choice value="Boucle"/>
+<Choice value="Canvas"/>
+<Choice value="Chambray/Denim"/>
+<Choice value="Chiffon/Crepe"/>
+<Choice value="Corduroy"/>
+<Choice value="Crochet"/>
+<Choice value="TODO_Damask"/>
+<Choice value="Down"/>
+<Choice value="Dupion"/>
+<Choice value="TODO_Fabric"/>
+<Choice value="Felt"/>
+<Choice value="Flannel"/>
+<Choice value="Fleece"/>
+<Choice value="French"/>
+<Choice value="Gauze"/>
+<Choice value="Georgette"/>
+<Choice value="Gingham"/>
+<Choice value="Grosgrain"/>
+<Choice value="Jacquard"/>
+<Choice value="Jersey"/>
+<Choice value="TODO_Knit"/>
+<Choice value="Lace"/>
+<Choice value="Latex"/>
+<Choice value="Lawn"/>
+<Choice value="Madras"/>
+<Choice value="TODO_Mesh"/>
+<Choice value="Microfiber"/>
+<Choice value="Microfleece"/>
+<Choice value="Moleskin"/>
+<Choice value="Muslin"/>
+<Choice value="Net"/>
+<Choice value="Oilcloth"/>
+<Choice value="Organdy"/>
+<Choice value="Organza"/>
+<Choice value="Ponte"/>
+<Choice value="Poplin"/>
+<Choice value="Ramie"/>
+<Choice value="Rayon"/>
+<Choice value="Satin"/>
+<Choice value="Seersucker"/>
+<Choice value="Selvage"/>
+<Choice value="Shearling"/>
+<Choice value="Silk"/>
+<Choice value="Softshell"/>
+<Choice value="TODO_Taffeta"/>
+<Choice value="Terry"/>
+<Choice value="TODO_Toile"/>
+<Choice value="Tulle"/>
+<Choice value="Tussah"/>
+<Choice value="Tweed"/>
+<Choice value="Twill"/>
+<Choice value="Velour"/>
+<Choice value="Velvet"/>
+<Choice value="Voile"/>
+<Choice value="Woven"/>
+</Choices>
 </View>
