@@ -333,14 +333,38 @@
       <Header name="heading-style" value="style" />
      
     </View>
-    <Choice value="athletic"/>
-    <Choice value="boot"/>
-    <Choice value="casual"/>
-      <Choice value="flat"/>
-      <Choice value="heel"/>
-      <Choice value="sandal"/>
-      <Choice value="slipper"/>
-           
+<Choice value="Ballet"/>
+<Choice value="Biker"/>
+<Choice value="Boat"/>
+<Choice value="Bootie"/>
+<Choice value="Chelsea"/>
+<Choice value="Chukka/Desert"/>
+<Choice value="Clog"/>
+<Choice value="Combat"/>
+<Choice value="Dorsay"/>
+<Choice value="Espadrille"/>
+<Choice value="Fisherman"/>
+<Choice value="Flat"/>
+<Choice value="Flip-Flop"/>
+<Choice value="Gladiator"/>
+<Choice value="Loafer"/>
+<Choice value="Mary-Jane"/>
+<Choice value="Moccassin"/>
+<Choice value="Mule"/>
+<Choice value="Oxford"/>
+<Choice value="Platform"/>
+<Choice value="Pump"/>
+<Choice value="Rain-Boot"/>
+<Choice value="Shearling"/>
+<Choice value="Slide"/>
+<Choice value="Slingback"/>
+<Choice value="Slip-On"/>
+<Choice value="Sneaker"/>
+<Choice value="Snow-Boot"/>
+<Choice value="Sock"/>
+<Choice value="Strappy"/>
+<Choice value="Thong"/>
+<Choice value="Western"/>           
   </Choices>
   
 #=============================
