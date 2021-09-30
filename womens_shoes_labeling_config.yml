@@ -121,8 +121,9 @@
       <Header name="heading-heel-height" value="heel height" />
      
     </View>
+    <Choice value="flat"/>
     <Choice value="low"/>
-    <Choice value="medium"/>
+    <Choice value="mid"/>
     <Choice value="high"/>
     <Choice value="ultra-high"/>
   </Choices>
@@ -187,6 +188,7 @@
     <Choice value="Low Top"/>
     <Choice value="Mid Top"/>
     <Choice value="High Top"/>
+    <Choice value="Mid Calf Top"/>
     <Choice value="Knee High"/>
     <Choice value="Thigh High"/>
     <Choice value="Over the Knee"/>
