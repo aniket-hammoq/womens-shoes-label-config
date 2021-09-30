@@ -273,20 +273,27 @@
       <Header name="heading-pattern" value="pattern" />
      
     </View>    
-  <Choice value = "gingham"/>
-  <Choice value = "check"/>
-  <Choice value = "solid"/>
+  <Choice value = "gingham/check"/>
+    <Choice value = "Animal"/>
+    <Choice value = "batik"/>
+  <Choice value = "camouflage"/>  
+    <Choice value = "chevron"/>
+  <Choice value = "colorblock"/>
+    <Choice value = "fair-isle"/>
+<Choice value = "flecked"/>    
+  <Choice value = "floral"/>
+  <Choice value = "geometric"/>    
   <Choice value = "herringbone"/>
   <Choice value = "houndstooth"/>
-  <Choice value = "camouflage"/>
-  <Choice value = "floral"/>
-  <Choice value = "striped"/>
-  <Choice value = "ombré_women_shoes"/>
-  <Choice value = "flecked"/>
   <Choice value = "ikat"/>
-  <Choice value = "colorblock"/>
+    <Choice value = "paisley"/>
+    <Choice value = "patchwork"/>
+  <Choice value = "pinstripe/striped"/>  
+  <Choice value = "polkadot/spotted"/>
   <Choice value = "plaid"/>
-  <Choice value = "polka_dot"/>    
+    <Choice value = "solid"/>
+  <Choice value = "tie-dye"/>
+  <Choice value = "TODO_ombre"/>
   </Choices>  
 
 #=============================
