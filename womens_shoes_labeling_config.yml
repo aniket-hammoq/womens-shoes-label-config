@@ -361,7 +361,7 @@
 <Choice value="Fisherman"/>
 <Choice value="Flat"/>
 <Choice value="Flip-Flop"/>
-<Choice value="Gladiator"/>
+<Choice value="Gladiator/Strappy"/>
 <Choice value="Loafer"/>
 <Choice value="Mary-Jane"/>
 <Choice value="Moccassin"/>
@@ -377,7 +377,6 @@
 <Choice value="Sneaker"/>
 <Choice value="Snow-Boot"/>
 <Choice value="Sock"/>
-<Choice value="Strappy"/>
 <Choice value="Thong"/>
 <Choice value="Western"/>           
   </Choices>
