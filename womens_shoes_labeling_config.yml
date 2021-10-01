@@ -50,7 +50,7 @@
      
     </View>
     <Choice value="cork"/>
-    <Choice value="other/unknown"/>
+    <Choice value="not_applicable"/>
   </Choices>
   </View>
   #----------------------
@@ -70,6 +70,7 @@
     <Choice value="canvas"/>
     <Choice value="fur"/>
     <Choice value="lambskin"/>
+<Choice value="not_applicable"/>    
   </Choices>  
      </View>
     </View>
@@ -88,6 +89,7 @@
     </View>    
     <Choice value="cork"/>
     <Choice value="rubber"/>
+<Choice value="not_applicable"/>    
   </Choices>  
   #----------------------  
   <Choices name="upper-shoe-material"
@@ -103,6 +105,7 @@
     </View>
     <Choice value="cork"/>
     <Choice value="fur"/>
+<Choice value="not_applicable"/>    
   </Choices>
 </View>
 #================================================================
@@ -126,6 +129,7 @@
     <Choice value="mid"/>
     <Choice value="high"/>
     <Choice value="ultra-high"/>
+<Choice value="not_applicable"/>    
   </Choices>
       </View>
   #----------------------
@@ -144,6 +148,7 @@
     <Choice value="Plastic Cleats"/>
     <Choice value="Rubber Cleats"/>
     <Choice value="Metal Cleats"/>
+<Choice value="not_applicable"/>    
   </Choices>  
   </View>
     </View>
@@ -168,6 +173,7 @@
     <Choice value="kitten heels"/>
     <Choice value="spool heels"/>
     <Choice value="wedge heels"/>
+  <Choice value="not_applicable"/>
   </Choices>  
   
 #=============================
@@ -192,6 +198,7 @@
     <Choice value="Knee High"/>
     <Choice value="Thigh High"/>
     <Choice value="Over the Knee"/>
+    <Choice value="not_applicable"/>
   </Choices>  
   #----------------------
   <Choices name="toe-shape"
@@ -212,6 +219,7 @@
 <Choice value = "peep_toe"/>
 <Choice value = "closed_toe"/>
 <Choice value = "almond_toe"/>
+<Choice value="not_applicable"/>
   </Choices>  
 
 #=============================
@@ -236,6 +244,7 @@
  <Choice value = "pull-on/slip-on"/>
  <Choice value = "snap"/>
   <Choice value = "zip"/>
+  <Choice value="not_applicable"/>
   </Choices>
 #=============================
 # other features
@@ -253,12 +262,11 @@
      
     </View>
     <Choice value="straps"/>
-    <Choice value="buckle"/>
     <Choice value="cap toe"/>
     <Choice value="spikes"/>
     <Choice value="wingtip"/>
     <Choice value="wheels"/>
-
+	<Choice value="not_applicable"/>
   </Choices>
 #=============================
 # pattern
@@ -296,6 +304,7 @@
     <Choice value = "solid"/>
   <Choice value = "tie-dye"/>
   <Choice value = "TODO_ombre"/>
+<Choice value="not_applicable"/>
   </Choices>  
 
 #=============================
@@ -439,5 +448,6 @@
 <Choice value="TODO_Mesh"/>
 <Choice value="TODO_Taffeta"/>
 <Choice value="TODO_Toile"/>
+<Choice value="not_applicable"/>
 </Choices>
 </View>
