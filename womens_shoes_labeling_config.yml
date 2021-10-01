@@ -283,19 +283,23 @@
       <Header name="heading-pattern" value="pattern" />
      
     </View>    
-  <Choice value = "gingham/check"/>
+  <Choice value = "gingham/checkered"/>
     <Choice value = "Animal"/>
     <Choice value = "batik"/>
   <Choice value = "camouflage"/>  
     <Choice value = "chevron"/>
   <Choice value = "colorblock"/>
+<Choice value="damask"/>
     <Choice value = "fair-isle"/>
 <Choice value = "flecked"/>    
   <Choice value = "floral"/>
-  <Choice value = "geometric"/>    
+  <Choice value = "geometric"/>
+  <Choice value="Knit"/>
   <Choice value = "herringbone"/>
   <Choice value = "houndstooth"/>
   <Choice value = "ikat"/>
+  <Choice value = "madras"/>
+  <Choice value="Mesh/net"/>
     <Choice value = "paisley"/>
     <Choice value = "patchwork"/>
   <Choice value = "pinstripe/striped"/>  
@@ -303,9 +307,11 @@
   <Choice value = "plaid"/>
     <Choice value = "solid"/>
   <Choice value = "tie-dye"/>
+  <Choice value = "woven"/>
   <Choice value = "TODO_ombre"/>
 <Choice value="not_applicable"/>
   </Choices>  
+
 
 #=============================
 # type and style
@@ -419,7 +425,6 @@
 <Choice value="Microfleece"/>
 <Choice value="Moleskin"/>
 <Choice value="Muslin"/>
-<Choice value="Net"/>
 <Choice value="Oilcloth"/>
 <Choice value="Organdy"/>
 <Choice value="Organza"/>
@@ -442,10 +447,7 @@
 <Choice value="Velvet"/>
 <Choice value="Voile"/>
 <Choice value="Woven"/>
-<Choice value="TODO_Damask"/>
 <Choice value="TODO_Fabric"/>
-<Choice value="TODO_Knit"/>
-<Choice value="TODO_Mesh"/>
 <Choice value="TODO_Taffeta"/>
 <Choice value="TODO_Toile"/>
 <Choice value="not_applicable"/>
