@@ -50,7 +50,7 @@
      
     </View>
     <Choice value="cork"/>
-    <Choice value="not_applicable"/>
+    <Choice value="not_visible"/>
   </Choices>
   </View>
   #----------------------
@@ -70,12 +70,15 @@
     <Choice value="canvas"/>
     <Choice value="fur"/>
     <Choice value="lambskin"/>
-<Choice value="not_applicable"/>    
+<Choice value="not_visible"/>    
   </Choices>  
      </View>
     </View>
   #----------------------
   <View style="display: flex;">
+  
+  #----------------------
+    <View style="flex: 50%">  
   <Choices name="outsole-material"
             toName="image"
             showInLine="true"
@@ -89,9 +92,11 @@
     </View>    
     <Choice value="cork"/>
     <Choice value="rubber"/>
-<Choice value="not_applicable"/>    
+<Choice value="other"/>    
   </Choices>  
-  #----------------------  
+  </View>
+  #----------------------
+    <View style="flex: 50%">
   <Choices name="upper-shoe-material"
             toName="image"
             showInLine="true"
@@ -105,8 +110,10 @@
     </View>
     <Choice value="cork"/>
     <Choice value="fur"/>
-<Choice value="not_applicable"/>    
+    <Choice value="leather/faux-leather"/>
+<Choice value="other"/>    
   </Choices>
+</View>
 </View>
 #================================================================
 # Heel and bottom of shoe section (heel-height,style,cleat)
@@ -129,7 +136,7 @@
     <Choice value="mid"/>
     <Choice value="high"/>
     <Choice value="ultra-high"/>
-<Choice value="not_applicable"/>    
+<Choice value="not_applicable/other"/>    
   </Choices>
       </View>
   #----------------------
@@ -173,7 +180,7 @@
     <Choice value="kitten heels"/>
     <Choice value="spool heels"/>
     <Choice value="wedge heels"/>
-  <Choice value="not_applicable"/>
+  <Choice value="not_applicable/other"/>
   </Choices>  
   
 #=============================
@@ -219,7 +226,7 @@
 <Choice value = "peep_toe"/>
 <Choice value = "closed_toe"/>
 <Choice value = "almond_toe"/>
-<Choice value="not_applicable"/>
+<Choice value="other"/>
   </Choices>  
 
 #=============================
@@ -244,7 +251,7 @@
  <Choice value = "pull-on/slip-on"/>
  <Choice value = "snap"/>
   <Choice value = "zip"/>
-  <Choice value="not_applicable"/>
+  <Choice value="not_applicable/other"/>
   </Choices>
 #=============================
 # other features
@@ -261,6 +268,7 @@
       <Header name="heading-features" value="features" />
      
     </View>
+
     <Choice value="straps"/>
     <Choice value="cap toe"/>
     <Choice value="spikes"/>
@@ -283,7 +291,7 @@
       <Header name="heading-pattern" value="pattern" />
      
     </View>    
-  <Choice value = "gingham/checkered"/>
+  
     <Choice value = "Animal"/>
     <Choice value = "batik"/>
   <Choice value = "camouflage"/>  
@@ -294,6 +302,7 @@
 <Choice value = "flecked"/>    
   <Choice value = "floral"/>
   <Choice value = "geometric"/>
+  <Choice value = "gingham/checkered"/>
   <Choice value="Knit"/>
   <Choice value = "herringbone"/>
   <Choice value = "houndstooth"/>
@@ -308,8 +317,8 @@
     <Choice value = "solid"/>
   <Choice value = "tie-dye"/>
   <Choice value = "woven"/>
-  <Choice value = "TODO_ombre"/>
-<Choice value="not_applicable"/>
+  <Choice value = "ombre"/>
+<Choice value="other"/>
   </Choices>  
 
 
@@ -348,7 +357,7 @@
       <Header name="heading-style" value="style" />
      
     </View>
-<Choice value="Ballet"/>
+<Choice value="Ballet/Flat"/>
 <Choice value="Biker"/>
 <Choice value="Boat"/>
 <Choice value="Bootie"/>
@@ -359,7 +368,6 @@
 <Choice value="Dorsay"/>
 <Choice value="Espadrille"/>
 <Choice value="Fisherman"/>
-<Choice value="Flat"/>
 <Choice value="Flip-Flop"/>
 <Choice value="Gladiator/Strappy"/>
 <Choice value="Loafer"/>
@@ -397,7 +405,7 @@
      
     </View>
 
-<Choice value="Blended"/>
+
 <Choice value="Boucle"/>
 <Choice value="Canvas"/>
 <Choice value="Chambray/Denim"/>
@@ -407,6 +415,6 @@
 <Choice value="Felt/Flannel/Jersey"/>
 <Choice value="Fleece"/>
 <Choice value="Velvet"/>
-<Choice value="not_applicable"/>
+<Choice value="nylon/synthetic/other"/>
 </Choices>
 </View>
